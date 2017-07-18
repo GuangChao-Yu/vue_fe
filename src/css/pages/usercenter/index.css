@@ -1,0 +1,194 @@
+.weChat-title {
+  width: 750px;
+  height: 88px;
+  /*px*/
+  line-height: 88px;
+  /*px*/
+  text-align: center;
+  font-size: 30px;
+  /*px*/
+  color: #607d8b;
+  position: relative;
+  background-color: #344650;
+  overflow: hidden;
+  z-index: 101;
+}
+
+.weChat-title-icon {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  /*px*/
+  font-weight: bold;
+  padding-left: 20px;
+  /*px*/
+  padding-right: 20px/*px*/
+}
+
+.weChat-title-icon img {
+  position: relative;
+  top: 6px;
+  /*px*/
+  width: 22px;
+  height: 36px;
+  /*px*/
+}
+
+.usercenter-header {
+  display: block;
+  width: 750px;
+  height: 220px;
+  /*px*/
+  position: relative;
+  margin-bottom: 20px;
+  /*px*/
+  background-color: rgba(40, 55, 63, .3);
+  overflow: hidden;
+}
+
+.usercenter-header-left {
+  float: left;
+  width: 220px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.usercenter-user-img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #13aa9c;
+  overflow: hidden;
+}
+
+.usercenter-user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.usercenter-header-right {
+  float: left;
+  width: 530px;
+  padding-top: 60px;
+  /*px*/
+  height: 160px;
+  /*px*/
+}
+
+.usercent-name {
+  font-size: 48px;
+  /*px*/
+  color: #FFF;
+  margin-right: 30px;
+  /*px*/
+}
+
+.usercenter-grad-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.usercenter-grad-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.usercenter-header-list {
+  margin-bottom: 15px;
+  /*px*/
+}
+
+.usercenter-jinbi,
+.usercenter-dianquan {
+  font-size: 26px;
+  /*px*/
+  color: #FFF;
+  margin-right: 24px;
+  /*px*/
+  margin-left: 8px;
+  /*px*/
+}
+
+.usercenter-jinbi i {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url('../../../assets/home/jinbi@2x.png') no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 8px;
+  /*px*/
+}
+
+.usercenter-dianquan i {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url('../../../assets/home/dianquan@2x.png') no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 8px;
+  /*px*/
+}
+
+.usercenter-link-item {
+  display: block;
+  width: 630px;
+  height: 100px;
+  /*px*/
+  padding: 0 60px;
+  /*px*/
+  position: relative;
+  border-bottom: 1px solid #141b23;
+  border-top: 1px solid #383f47;
+  background-color: rgba(40, 55, 63, .3);
+}
+
+.usercenter-link-item-frist {
+  border-top: none;
+}
+
+.usercenter-link-txt {
+  font-size: 30px;
+  /*px*/
+  color: #607d8b;
+  line-height: 100px;
+  /*px*/
+}
+
+.usercetner-ink-icon {
+  font-size: 34px;
+  /*px*/
+  color: #607d8b;
+  position: absolute;
+  top: 24px/*px*/
+  ;
+  right: 60px/*px*/
+  ;
+}
+
+.usercenter-tuichu-btn {
+  width: 750px;
+  height: 100px;
+  /*px*/
+  margin-top: 20px;
+  /*px*/
+  text-align: center;
+  line-height: 100px;
+  /*px*/
+  font-size: 30px;
+  /*px*/
+  color: #607d8b;
+  background-color: rgba(40, 55, 63, .3);
+}

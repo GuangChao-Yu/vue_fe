@@ -1,0 +1,146 @@
+.game-map-warp {
+  background: url("../../assets/lineUp/mapbd@2x.png") rgba(25, 33, 41, .6) 100% 100% no-repeat;
+  background-size: 100% 100% !important;
+  height: 664px;
+  /*px*/
+  width: 750px;
+  position: relative;
+  margin-bottom: 10px;
+  /*px*/
+}
+
+.line-up-position {
+    position: absolute;
+    width: 212px;
+  }
+  .position-header {
+    height:108px;/*px*/
+    margin-left:50px;
+    position: relative;
+  }
+  .position-header div {
+    height: inherit;
+    margin-left:-5px;
+    position: absolute;
+  }
+  .position-header div.right {
+    width:100%;
+    z-index:20;
+    text-align: right;
+  }
+  .clear-margin div.left{
+    overflow: hidden;
+    position: relative;
+    width:85%; 
+  }
+  .clear-margin > .left >img {
+    position: absolute;
+    width: 100%;
+    left:-20px;
+  }
+  .position-header > .left >img {
+    width: inherit;
+    height: inherit;
+  }
+  /* 有数据 */
+  .data-bg {
+    background-image: url("../../assets/lineUp/back2@2x.png") ;
+    background-size:100% 100%;
+    background-position: 100% 50% ;
+    background-repeat:no-repeat;
+
+  }
+  .position-header > .right .player-data {
+    color: #a2c0ce;
+    font-size: 16px !important;/*px*/
+    height:24px;/*px*/
+    position: relative;
+    top:25px;/*px*/
+  }
+  .position-footer {
+    font-size: 20px;/*px*/
+    color: #a2c0ce;
+    margin-top: 10px;/*px*/
+  }
+  .position-footer .border-line {
+    width: 60px;
+    height: 26px;/*px*/
+    line-height: 26px;/*px*/
+    font-size: 17px;/*px*/
+    border:1px solid #03868b;/*no*/
+    border-radius: 5px;
+    text-align: center;
+  }
+  .position-footer span.right {
+    color: #ffea00;
+  }
+  .position-footer span.right:before {
+    content: '¥';
+    color: #ffea00;
+  }
+  .position-body {
+    position: relative;
+  }
+  .position-body > .left > span:first-child {
+    display: inline-block;
+    width:50px;
+    height:50px;/*px*/
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top:-14px;/*px*/
+    background-color: #03898a;
+  }
+  .position-body > .left > span:first-child img {
+    width: 80%;
+    height: 80%;
+    margin:10%;
+  }
+  .text-name-w{
+    box-sizing:border-box;
+    padding-left:50px;
+    display: block;
+    text-align: content !important;
+    width:160px;
+  }
+  .position-body div {
+    color: #a9c8d7;
+    background-color: #1c2d35;
+    height:34px;/*px*/
+    line-height: 34px;/*px*/
+    width:100%;
+    border-top:1px solid #03858b;/*no*/
+    border-right:1px solid #03858b;/*no*/
+    border-bottom:1px solid #03858b;/*no*/
+    border-radius: 0 5px 5px 0;
+    font-size: 24px;/*px*/
+    text-align: center;
+    overflow: hidden;
+  }
+
+  /* 位置 */
+  .top-position {
+    top:11px;/*px*/
+    left:19px;
+  }
+  .mid-position {
+    top:200px !important;/*px*/
+    left:255px;
+  }
+  .adc-position {
+    bottom:76px;/*px*/
+    right:11px;
+  }
+  .jun-position {
+    right:11px;
+    top:200px !important;/*px*/
+  }
+  .sup-position {
+    bottom:76px;/*px*/
+    left:255px;
+  }
+  .flex-position {
+    left:19px;
+    bottom:76px;/*px*/
+  }
+

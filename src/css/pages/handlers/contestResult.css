@@ -1,0 +1,549 @@
+.contest-result-title {
+  color: #ffffff;
+  font-size: 24px;
+  /*px*/
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  /*px*/
+  line-height: 60px;
+  text-align: center;
+  /*px*/
+}
+.video-player-a{
+  display: block;
+   width: 100%;
+  height: 424px;
+  /*px*/
+}
+.video-player {
+  width: 100%;
+  height: 424px;
+  /*px*/
+}
+
+.video-player .go-back {
+  position: absolute;
+  top: 10px;
+  /*px*/
+  left: 10px;
+  z-index: 1000;
+   font-size: 34px;
+  color: white;
+  height: 50px;
+}
+
+.video-tabs-list {
+  text-align: center;
+  background-color: #344650;
+  border-top: 1px solid #22323d;
+  /* px */
+  color: #607d8b;
+  background-size: 100% 100%;
+  height: 90px;
+  /*px*/
+  line-height: 90px;
+  /*px*/
+  font-size: 32px;
+  /*px*/
+  width: 100%;
+}
+
+.contest-result-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  /*px*/
+  padding-bottom: 20px;
+  /*px*/
+}
+
+.result-item-wrap {
+  background-color: rgba(37, 51, 65, 0.6);
+  border: 1px solid #253341;
+  /*no*/
+}
+
+
+/* 队伍得分 */
+
+.team-score {
+  height: 120px;
+  /*px*/
+  width: 100%;
+}
+
+.team-score .flex-item div {
+  color: #ffffff;
+  margin-top: 5px;
+  /*px*/
+}
+
+.team-score .flex-item p {
+  font-size: 24px;
+  /*px*/
+  /*margin:16px auto 20px;*/
+  margin: 0 auto;
+  color: #607d8b;
+}
+
+.team-score .team-name div {
+  font-size: 30px;
+  /*px*/
+  text-align: center;
+}
+
+.team-score .team-point>div {
+  text-align: center;
+  font-size: 40px;
+  /*px*/
+}
+
+.team-score .team-img div {
+  width: 106px;
+  height: 106px;
+  /*px*/
+  margin: 3.5px auto;
+  text-align: center;
+}
+
+.team-score .team-img div img {
+  width: 90%;
+  height: 90%;
+  margin: 5% 0;
+}
+
+.team-score .team-name div {
+  margin-top: 10px;
+  /*px*/
+}
+
+.team-score .team-name div p {
+  color: #a9c8d7;
+  border: 1px solid #03858b;
+  /*no*/
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  /*px*/
+  padding-bottom: 5px;
+  /*px*/
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 8px;
+  /*px*/
+}
+
+
+/* 队员得分 */
+
+.play-score {
+  width: 100%;
+  height: 480px;
+  /*px*/
+  margin-top: 20px;
+  /*px*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  /*px*/
+  padding-bottom: 40px;
+  /*px*/
+}
+
+.result-player-item {
+  width: 218px;
+  height: 186px;
+  /*px*/
+  float: left;
+  position: relative;
+}
+
+.margin-left-right {
+  margin-top: 0px;
+  /*px*/
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.result-player-header {
+  position: absolute;
+  width: 80%;
+  height: 138px;
+  /*px*/
+  z-index: 5;
+  bottom: 30px;
+  /*px*/
+}
+
+.result-player-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.result-player-score {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  font-size: 24px;
+  /*px*/
+  bottom: 30px;
+  /*px*/
+  color: #ffffff;
+}
+
+.result-player-score .player-result-totalScore {
+  font-size: 40px;
+  /*px*/
+}
+
+.result-player-score .player-result-totalScore p {
+  font-size: 24px;
+  /*px*/
+  color: #607d8b;
+}
+
+.player-result-position {
+  color: #a9c8d7;
+  border: 1px solid #03858b;
+  /*no*/
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  /*px*/
+  padding-bottom: 5px;
+  /*px*/
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  /*px*/
+  margin-bottom: 10px;
+  /*px*/
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.result-player-info {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+  line-height: 30px;
+  /*px*/
+  height: 30px;
+  /*px*/
+}
+
+.result-player-info .result-player-team {
+  width: 48px;
+  height: 48px;
+  /*px*/
+  border-radius: 50%;
+  background-color: #03898a;
+  color: #ffffff;
+  position: absolute;
+  top: -15px;
+  /*px*/
+  z-index: 20;
+}
+
+.result-player-info .result-player-team img {
+  width: 80%;
+  margin-top: 10%;
+}
+
+.result-player-info .result-player-name {
+  width: 175px;
+  height: 30px;
+  /*px*/
+  color: #ffffff;
+  font-size: 24px;
+  /*px*/
+  border: 1px solid #03898a;
+  /*no*/
+  border-radius: 5px;
+  line-height: 30px;
+  /*px*/
+  overflow: hidden;
+}
+
+
+/* 总分数 */
+
+.total-score {
+  width: 100%;
+  height: 140px;
+  /*px*/
+  margin-top: 20px;
+  /*px*/
+  position: relative;
+}
+
+.score-user-info .header-shot-url img {
+  width: 64px;
+  height: 64px;
+  /*px*/
+  border-radius: 50%;
+  margin-top: 16px;
+  /*px*/
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 24px;
+  margin-right: 10px;
+}
+
+.score-user-info .header-shot-url strong {
+  font-size: 32px;
+  /*px*/
+  color: #ffffff;
+  position: absolute;
+  top: 25px;
+  /*px*/
+}
+
+.score-total {
+  color: #607d8b;
+  font-size: 48px;
+  /*px*/
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.score-total .text-right span {
+  color: #ffffff;
+  font-size: 72px;
+  /*px*/
+  margin-top: 0px;
+  /*px*/
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.score-total .text-right {
+  float: right;
+}
+
+
+/* 排行榜 */
+
+.rank-list {
+  padding-top: 34px;
+  /*px*/
+  /*padding-left: 40px;*/
+  /*padding-right: 40px;*/
+  padding-bottom: 0px;
+  /*px*/
+}
+
+.rank-list-title .list-title-top {
+  position: relative;
+}
+
+.rank-list-title .list-title-top .left h4 {
+  font-size: 28px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.rank-list-title .list-title-top .right {
+  line-height: 0;
+  /*px*/
+  height: 40px;
+  /*px*/
+}
+
+.rank-list-title .list-title-top .right button {
+  width: 150px;
+  height: 40px;
+  /*px*/
+  color: #ffffff;
+  font-size: 18px;
+  /*px*/
+  border: none;
+  outline: none;
+  background: url("../../../assets/contestResult/rank_btn@2x.png") center no-repeat;
+  background-size: contain;
+}
+
+
+/* table */
+
+.th-col-50 {
+  width: 50%;
+}
+
+.th-col-20 {
+  width: 20%;
+  text-align:center;
+}
+
+.th-col-10 {
+  width: 10%;
+}
+
+.list-title-bottom {
+  margin-top: 28px;
+  /*px*/
+}
+
+.rank-list-table-header {
+  table-layout: fixed;
+  width: 100%;
+  padding-left:50px;
+}
+
+.rank-list-table-header thead tr {
+  color: #607d8b;
+  font-size: 24px;
+  /*px*/
+  border-bottom: 1px solid #141b24;
+  /*no*/
+}
+
+.rank-list-table-body {
+  width: 100%;
+}
+
+.rank-list-table-body tbody tr {
+  color: #ffffff;
+  font-size: 32px;
+  /*px*/
+  text-align: center;
+}
+
+.rank-list-table-body tbody tr td {
+  padding-top: 40px;
+  /*px*/
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  /*px*/
+  border-bottom: 1px solid #141b24;
+  /*no*/
+  border-top: 1px solid #3b4246;
+  /*no*/
+}
+
+.rank-user-info,
+.rank-reward {
+  position: relative;
+}
+
+.rank-user-header {
+  width: 48px;
+  height: 48px;
+  /*px*/
+  border-radius: 50%;
+}
+
+.rank-user-header img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.rank-user-name {
+  margin-top: 0px;
+  /*px*/
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.user-n {
+  width: 45%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rank-user-position {
+  width: 36px;
+  height: 36px;
+  /*px*/
+}
+
+.rank-reward img {
+  position: absolute;
+  top: 3px;
+  /*px*/
+  width: 30px;
+  height: 30px;
+  /*px*/
+}
+
+.rank-user-position img {
+  position: absolute;
+  top: -5px;
+  /*px*/
+  width: 60px;
+  height: 60px;
+  /*px*/
+}
+
+.rank-reward img {
+  margin-left: 6px;
+}
+
+
+/* 赛事回顾 */
+
+li.video-list-item:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.video-list-item .video-list-img {
+  width: 345px;
+  height: 180px;
+  /*px*/
+  border-radius: 5px;
+}
+
+.video-list-item .video-list-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.video-list-item .video-list-text p {
+  font-size: 20px;
+  /*px*/
+  color: #9498a1;
+  margin-top: 13px;
+  /*px*/
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  /*px*/
+}
+.rank-list-content-my{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:109px;
+  background-color:rgb(52,70,80);
+  border-top:1px solid rgb(70,201,213);
+  vertical-align:center;
+}
+.rank-list-content{
+    padding-left: 40px;
+  padding-right: 40px;
+}
+.rank-list-title{
+      padding-left: 40px;
+  padding-right: 40px;
+}
+.score-total-many{
+  position:static;
+}
+.contest-result-content-my{
+  padding-left: 0;
+  padding-right: 0;
+}

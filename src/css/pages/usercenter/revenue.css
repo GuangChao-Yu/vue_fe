@@ -1,0 +1,209 @@
+body {
+  height: auto;
+  min-height: 100%;
+}
+
+.no-data-txt {
+  width: 750px;
+  height: 160px;
+  /*px*/
+  text-align: center;
+  line-height: 160px;
+  color: #FFF;
+  font-size: 40px;
+  /*px*/
+}
+
+.revenue-title {
+  width: 750px;
+  display: flex;
+  height: 80px;
+  /*px*/
+}
+
+.revenue-item {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  /*px*/
+  color: #FFF;
+  line-height: 80px;
+  /*px*/
+  font-size: 26px;
+  /*px*/
+  color: #607d8b;
+  font-weight: bold;
+}
+
+.revenue-list-item {
+  width: 630px;
+  height: 100px;
+  /*px*/
+  margin: 0 60px;
+  position: relative;
+  border-bottom: 1px solid #003333;
+  /*no*/
+  border-top: 1px solid #333333;
+  /*no*/
+  overflow: hidden;
+}
+
+.revenue-list-item:first-child {
+  border-top: none;
+}
+
+.list-item-time {
+  display: block;
+  float: left;
+  width: 162px;
+  padding-top: 10px;
+  /*px*/
+  height: 90px;
+  /*px*/
+  text-align: center;
+  font-size: 26px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.list-item-type {
+  display: block;
+  float: left;
+  width: 306px;
+  height: 100px;
+  /*px */
+  text-align: center;
+  line-height: 100px;
+  /*px*/
+  font-size: 26px;
+  /*px*/
+  padding: 0 35px;
+  color: #a7b7c0;
+}
+
+.list-item-money {
+  display: block;
+  float: left;
+  width: 162px;
+  height: 100px;
+  /*px*/
+  font-size: 26px;
+  /*px*/
+  color: #a7b7c0;
+  text-align: center;
+  position: relative;
+}
+
+.symbol-icon {
+  font-size: 40px;
+  /*px*/
+  color: #a7b7c0;
+  position: absolute;
+  top: 20px;
+  /*px*/
+  left: 0px;
+  /*px*/
+}
+
+.currency-type-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url('../../../assets/home/jinbi@2x.png') no-repeat;
+  position: absolute;
+  top: 35px;
+  /*px*/
+  left: 28px;
+  /*px*/
+  background-size: 100% 100%;
+}
+
+.currency-type-icon-2 {
+  background: url('../../../assets/home/dianquan@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.currency-num {
+  font-size: 34px;
+  /*px*/
+  color: #ffea00;
+  position: absolute;
+  top: 30px;
+  /*px*/
+  right: 0;
+}
+
+.revenue-dialog {
+  width: 560px;
+  height: 470px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -280px;
+  margin-top: -235px;
+  background: #253340;
+}
+
+.close-dialog-icon{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url('../../../assets/exchange/close@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 90;
+}
+
+.revenue-dialog-title{
+  width: 100%;
+  height: 100px; /*px*/
+  text-align: center;
+  line-height: 100px; /*px*/
+  font-size: 36px; /*px*/
+  color: #49d4e1;
+}
+
+.dialog-item{
+  width: 520px;
+  height: 60px; /*px*/
+  padding-left: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.dialog-item-list{
+  font-size: 30px;
+  color: #a7b7c0;
+  line-height: 60px; /*px*/
+}
+
+.dialog-item-big-1{
+  height: 90px; /*px*/
+  line-height: 90px; /*px*/
+}
+
+.dialog-item-big-2{
+    height: 100px; /*px*/
+  line-height: 100px; /*px*/
+}
+
+.dialog-item-icon{
+  display: inline-block;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  background: url('../../../assets/home/jinbi@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.dialog-item-icon-2{
+  background: url('../../../assets/home/dianquan@2x.png') no-repeat;
+  background: 100% 100%;
+}

@@ -1,0 +1,98 @@
+  .menu-bar-wrap{
+    width: 750px;
+    height: 98px;/*px*/
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background: #344650;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-decoration:none;
+    z-index: 100;
+  }
+  .menu-bar-item{
+    height: 98px;/*px*/
+    flex: 1;
+  }
+
+  .menu-bar-icon{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;/*px*/
+    margin-top: 8px;/*px*/
+  }
+
+  .menu-icon-1{
+    background: url('../../assets/index/home_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-1-active{
+    background: url('../../assets/index/home_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-2{
+    background: url('../../assets/index/duihuan_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-2-active{
+    background: url('../../assets/index/duihuan_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-3{
+    background: url('../../assets/index/qiandao_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-3-active{
+    background: url('../../assets/index/qiandao_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-4{
+    background: url('../../assets/index/huodong_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-4-active{
+    background: url('../../assets/index/huodong_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .menu-icon-6{
+    background: url('../../assets/myContest/game_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-6-active{
+    background: url('../../assets/myContest/game_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-5{
+    background: url('../../assets/myContest/jinsailiebiao_nomal@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .menu-icon-5-active{
+    background: url('../../assets/myContest/jinsailiebiao_pressed@2x.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+
+
+  .menu-bar-lable{
+    font-size: 20px;/*px*/
+    color: #607d8b;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .menu-bar-lable-acive{
+    color: #fff;
+  }

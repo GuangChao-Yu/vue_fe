@@ -1,0 +1,112 @@
+.map-cutdown-warp {
+  width: 750px;
+  height: 40px;
+  /*px*/
+  background-color: #496068;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*px*/
+  text-align: center;
+  line-height: 40px;
+  /*px*/
+  color: #8db2c3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.caozuo-warp{
+  position: relative;
+  height: 40px;/*px*/
+  line-height: 40px;/*px*/
+  padding-right: 40px;
+}
+.caozuoicon{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 30px;/*px*/
+  height: 30px;/*px*/
+  transform: translate(0,-50%);
+  overflow: hidden;
+}
+
+.map-cutdow-icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;/*px*/
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.map-cutdown-style {
+  color: #fff;
+}
+
+.map-salary {
+  display: flex;
+  color: #607d8b;
+  align-items: center;
+}
+
+.map-salary-item {
+  flex: 1;
+  text-align: center;
+}
+
+.map-salary-item strong::before {
+  content: '\A5';
+}
+
+.map-salary-item strong {
+  color: #ffea00;
+  font-size: 32px;
+  /*px*/
+}
+
+.lazy-load {
+  height: auto !important;
+}
+
+.map-lead-btn {
+  margin: 32px auto;
+  width: 225px;
+  height: 64px;
+  /*px*/
+  background: url('../../../assets/lineUp/btn2@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.map-lead-btn span {
+  color: #fff;
+  line-height: 64px;
+  /*px*/
+  text-align: center;
+}
+
+.game-map-oprating {
+  width: 750px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  /*px*/
+}
+
+.operating-item {
+  flex: 1;
+  background: url("../../../assets/lineUp/btn1@2x.png") 100% 100% no-repeat;
+  background-size: 100% 100%;
+  height: 94px;
+  /*px*/
+  font-size: 32px;
+  text-align: center;
+  line-height: 94px;
+  /*px*/
+  color: #fff;
+}
+

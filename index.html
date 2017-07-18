@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="yes" name="apple-touch-fullscreen" />
+  <meta content="telephone=no,email=no" name="format-detection" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- 淘宝flexible -->
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/makegrid.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <!--app -->
+  <div id="app"></div>
+  <script>
+    pushHistory(); 
+    window.addEventListener("popstate", function(e) {
+      e.preventDefault();
+      location.href='/index';
+    }, false); 
+    function pushHistory() { 
+        var state = { 
+            title: "title", 
+            url: "#"
+        }; 
+        window.history.pushState(state, "title", "#"); 
+    }
+  </script>
+  <!-- 百度统计 -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?29d116120abaf161f9a4ddd1fe73f6b2";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+
+  </script>
+</body>
+
+</html>

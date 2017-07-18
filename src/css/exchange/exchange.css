@@ -1,0 +1,143 @@
+.clear {
+  clear: both;
+  height: 90px;
+  /*px*/
+}
+
+.active-bar {
+  font-size: 32px;
+  color: #46c9d5;
+}
+
+.page-head {
+  position: fixed;
+  width: 750px;
+  height: 90px;
+  /*px*/
+  color: rgb(52, 70, 80);
+  font-size: 30px;
+  /*px*/
+}
+
+.tabs-list {
+  background-color: #344650;
+  border-top: 1px solid #22323d;
+  /*no*/
+  color: #607d8b;
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  /*px*/
+  line-height: 90px;
+  /*px*/
+  font-size: 32px;
+  /*px*/
+  position: fixed;
+  width: 750px;
+  z-index: 100;
+}
+
+.tabs-list {
+  top: 0;
+}
+
+.tabs-list .tabs-item {
+	height: 88px;
+  border-right: 1px solid #22323d;
+  /*no*/
+  border-left: 1px solid #3c5464;
+  /*no*/
+  border-top: 1px solid #3c5464;
+  /*no*/
+  border-bottom: 4px solid #344650;/*no*/
+}
+.go-back img {
+  line-height: 90px;
+  /*px*/
+  height: 55px;
+  /*px*/
+  width: 40px;
+  vertical-align: middle;
+}
+
+.page-list {
+  /*margin-top: 90px;*/
+  width: 750px;
+  padding-top: 40px;
+  /*px*/
+  padding-bottom: 40px;
+  /*px*/
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tengXun-list {
+  width: 750px;
+  padding-top: 40px;
+  /*px*/
+  padding-bottom: 70px;
+  /*px*/
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-list-body {
+  padding-top: 80px;
+  /*px*/
+}
+
+.page-list-body-li {
+  width: 302px;
+  height: 380px;
+  /*px*/
+  padding-top: 20px;
+  /*px*/
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+  background-color: rgb(37, 47, 57);
+  display: inline-block;
+  margin-bottom: 20px;
+  /*px*/
+}
+
+.page-list-body-li:nth-child(2n-1) {
+  margin-right: 20px;
+}
+
+.page-list-body-img {
+  width: 306px;
+  height: 240px;
+  /*px*/
+  margin-bottom: 28px;
+  /*px*/
+}
+
+.page-list-body-img img {
+  width: 306px;
+  height: 240px;
+  /*px*/
+}
+
+.hero-nam {
+  font-size: 28px;
+  /*px*/
+  color: white;
+}
+
+.hero-price {
+  float: right;
+  color: #ffea00;
+  font-size: 30px;
+  /*px*/
+  margin-top: 20px;
+  /*px*/
+}
+
+.hero-price img {
+  width: 30px;
+  height: 30px;
+  /*px*/
+  margin-left: 5px;
+  vertical-align: bottom;
+}

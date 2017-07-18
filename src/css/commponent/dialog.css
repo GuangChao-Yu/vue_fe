@@ -1,0 +1,74 @@
+ .mask {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 750px;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+ 
+ .mask-default-box {
+   width: 560px;
+   height: 260px;
+   /*px*/
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+   background-color: #273238;
+   z-index: 999;
+   border-radius: 10px;
+ }
+
+ .dialog-default-title1 {
+   width: 560px;
+   font-size: 32px;
+   /*px*/
+   color: #a9c8d7;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ .dialog-default-title2 {
+   width: 560px;
+   font-size: 20px;
+   /*px*/
+   color: #a9c8d7;
+   margin-top: 20px;
+   /*px*/
+   text-align: center;
+ }
+
+ .dialog-default-btn-warp {
+   height: 80px;
+   /*px*/
+   margin-top: 20px;
+   /*px*/
+ }
+
+ .dialog-default-btn {
+   display: block;
+   width: 295px;
+   height: 80px;
+   /*px*/
+   background: #019389;
+   text-align: center;
+   font-size: 32px;
+   /*px*/
+   color: #FFF;
+   line-height: 80px;
+   /*px*/
+   border-radius: 30px;
+   margin: 0 auto;
+ }
+.details-isShow{
+  color: white;
+  text-align: center;
+  
+}

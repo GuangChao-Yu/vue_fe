@@ -1,0 +1,158 @@
+.pick-right-item {
+  height: 180px;/*px*/
+  background: url('../../assets/lineUpPicking/member_unchosen.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pick-right-active {
+  height: 180px;/*px*/
+  background: url('../../assets/lineUpPicking/menber_chosen@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 50;
+}
+
+.pick-poistion-icon {
+  display: block;
+  width: 57px;
+  height: 26px;
+  /*px*/
+  background: url('../../assets/lineUpPicking/postion@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 22px;
+  left: -0.5px;
+  text-align: center;
+  line-height: 26px;
+  /*px*/
+  font-size: 20px;
+  /*px*/
+  color: #a1bfce;
+  z-index: 20px;
+}
+
+.pick-player-img {
+  float: left;
+  display: block;
+  width: 180px;
+  height: 180px;/*px*/
+  overflow: hidden;
+}
+
+.pick-player-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.pick-player-name {
+  float: left;
+  display: block;
+  width: 420px;
+  font-size: 28px;
+  /*px*/
+  color: #fff;
+  margin-top: 15px;
+}
+
+.pick-player-team-game {
+  float: left;
+  width: 420px;
+  margin-top: 10px;
+  height: 30px;
+  /*px;*/
+}
+
+.pick-player-taam-game-num {
+  margin-left: 10px;
+  font-size: 24px;/*px*/
+  color: #607d8b;
+}
+
+.pick-player-team-icon {
+  display: inline-block;
+  padding: 0 10px;/*px*/
+  height: 30px;
+  /*px*/
+  background: url('../../assets/lineUpPicking/name@2x.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 20px;
+  /*px*/
+  color: #a1bfce;
+  text-align: center;
+  line-height: 30px;
+  /*px*/
+}
+
+.pick-player-kda {
+  float: left;
+  width: 420px;
+  margin-top: 5px;/*px*/
+  font-size: 24px;
+  /*px*/
+  color: #607d8b;
+}
+
+.pick-player-kda i {
+  margin-left: 20px;
+  font-size: 24px;
+  color: #a1bfce;
+}
+
+.pick-player-stp {
+  float: left;
+  width: 420px;
+  font-size: 24px;
+  /*px*/
+  color: #607d8b;
+}
+
+.pick-player-stp i {
+  margin-left: 20px;
+  font-size: 24px;
+  color: #a1bfce;
+}
+
+.pick-unselect-icon {
+  display: block;
+  width: 72px;
+  height: 62px;
+  /*px;*/
+  background: url('../../assets/lineUpPicking/plus@2x.png') no-repeat;
+  position: absolute;
+  background-size: 100% 100%;
+  right: 0;
+  top: 32px;
+  z-index: 100;
+}
+
+.pick-select-icon {
+  display: block;
+  width: 72px;
+  height: 62px;
+  /*px;*/
+  background: url('../../assets/lineUpPicking/minus@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 32px;
+  z-index: 100;
+}
+
+.pick-player-all-salary{
+  font-size: 28px;/*px*/
+  color: #607d8b;
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+}
+
+.pick-player-all-salary i{
+  font-size: 28px;/*px*/
+  color: #ecd804;
+}
+
+.pick-player-all-salary i::before{
+  content:'\A5';
+}

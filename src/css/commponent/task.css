@@ -1,0 +1,305 @@
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.mask-bg{
+  width: 650px;
+  height: 1118px;/*px*/
+  margin:0 auto;
+  position:relative;
+  top: 50%; /*偏移*/
+  transform: translateY(-50%);
+  z-index: 20;
+  background: url('../../assets/task/qiandao_background@2x.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.mask-bg-kpl{
+  width: 650px;
+  height: 1118px;/*px*/
+  margin:0 auto;
+  position:relative;
+  top: 50%; /*偏移*/
+  transform: translateY(-50%);
+  z-index: 20;
+  background: url('../../assets/glory/bg_signin_forKG@2x.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.close_task_btn{
+  position: absolute;
+  width: 31px;
+  height: 31px;/*px*/
+  top: 0;
+  right: 10px;
+  background: url('../../assets/task/qiandoa_close@2x.png') no-repeat center top;
+  background-size: 100% 100%;
+  z-index: 30;
+}
+
+.task-intrduce{
+  display: block;
+  padding-top:250px; 
+}
+
+.task-intrduce p{
+  width: 100%;
+  float: left;
+  padding-left: 35px;
+  font-size: 24px; /*px*/
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.task-box{
+  margin: 0 auto;
+  margin-top: 52px;
+  width: 590px;
+  height: 760px;/*px*/
+  position: relative;
+  overflow: hidden;
+}
+
+.task-box-ul{
+  width: 110%;
+}
+
+/*  默认基础样式 */
+.task-def-item{
+  position: relative;
+  float:left;
+  width: 180px;
+  height: 200px;/*px*/
+  margin-right: 20px;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+
+.task-item-big{
+  position: relative;
+  float:left;
+  width: 380px;
+  height: 200px;/*px*/
+  z-index: 10;
+}
+
+/*  完成的签到 小 */
+.taskised-sm{
+    background: url('../../assets/task/small_black@2x.png') no-repeat center top;
+    background-size: 100% 100%;
+}
+
+/*  未完成签到 小 */
+.tasking-sm{
+    background: url('../../assets/task/small_bd@2x.png') no-repeat center top;
+    background-size: 100% 100%;
+}
+
+/*  完成签到 大 */
+.taskised-big{
+    background: url('../../assets/task/big_black@2x.png') no-repeat center top;
+    background-size: 100% 100%;
+}
+
+/*  未完成签到 大 */
+.tasking-big{
+    background: url('../../assets/task/big_bd@2x.png') no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.task-item-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;/*px*/
+  background: rgba(0, 0, 0, 0.4);
+  padding-left: 20px;
+  z-index: 15;
+  text-align:center;
+  line-height: 48px;/*px*/
+  color: #ffcc66;
+  font-size: 24px; /*px*/ 
+}
+
+.taskised-big .task-item-bottom{
+  text-align:left;
+  line-height: 48px;/*px*/
+  color: #fedb6e;
+  font-size: 24px; /*px*/ 
+}
+
+.tasking-big .task-item-bottom{
+  text-align:left;
+  line-height: 48px;/*px*/
+  color: #fedb6e;
+  font-size: 24px; /*px*/ 
+}
+
+.tasking-big .is-now-day{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 380px;
+  height:200px;/*px*/
+  background: url('../../assets/task/big_chosen@2x.png')no-repeat center top;
+  background-size: 100% 100%;
+  z-index: 18;
+  display:none;
+}
+
+.tasking-sm .is-now-day{
+  width: 180px;
+  height:200px;/*px*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url('../../assets/task/samll_chosen@2x.png')no-repeat center top;
+  background-size: 100% 100%;
+  z-index: 18;
+  display:none;
+}
+
+.tasknow .is-now-day{
+  display:block;
+}
+
+.tasking-big .done-icon,.tasking-sm .done-icon{
+  display: none;
+}
+
+.taskised-big .done-icon,.taskised-sm .done-icon{
+  display: block;
+  width: 168px;
+  height: 168px;/*px*/
+  position: absolute;
+  right: 0;
+  top: 32px;
+  z-index: 25;
+  background: url('../../assets/task/tick_icon.png')no-repeat center top;
+  background-size: 100% 100%;
+}
+
+.tasking-big .task-day,.tasking-sm .task-day{
+  display: block;
+  width: 118px;
+  height: 57px;/*px*/
+  text-align: center;
+  line-height: 57px;/*px*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../../assets/task/qiandao_flag@2x.png')no-repeat center top;
+  background-size: 100% 100%;
+  font-size: 24px; /*px*/ 
+  z-index: 20;
+  color: #f1d0be;
+  display: block;
+}
+
+.taskised-big .task-day,.taskised-sm .task-day{
+  display: block;
+  width: 118px;
+  height: 57px;/*px*/
+  text-align: center;
+  line-height: 57px;/*px*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../../assets/task/qiandao_flagblack@2x.png')no-repeat center top;
+  background-size: 100% 100%;
+  font-size: 24px; /*px*/ 
+  z-index: 20;
+  color: #666;
+  display: block;
+}
+
+.task-btn{
+  width: 592px;
+  height: 100px;/*px*/
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  margin-left: -296px;
+  background: url('../../assets/task/qiandao_btn@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.task-btn-disable{
+  background: url('../../assets/task/qiandao_btnblack.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+/*  签到领取样式 */
+.task-result-box{
+  width: 580px;
+  height: 520px;/*px*/
+  margin:0 auto;
+  position:relative;
+  top: 50%; /*偏移*/
+  transform: translateY(-50%);
+  z-index: 20;
+  background: url('../../assets/task/qiandaoquereng_BD@2x.png') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.qianresult-title{
+  text-align: center;
+  font-size: 80px; /*px*/
+  color:#fedb6e;
+  margin-top: 20px;/*px*/
+}
+
+.gift-box{
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;/*px*/
+  margin: 0 auto;
+  margin-top: 30px;/*px*/
+  background: url('../../assets/task/qiandaoquereng_small@2x.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 25;
+  overflow: hidden;
+}
+
+.big-gift{
+  background: url('../../assets/task/qinadaoquereng_big@2x.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 25;
+}
+
+.gift-message{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom:16px;
+  text-align: center;
+  font-size: 24px; /*px*/
+  color:#fedb6e;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+.qianren-btn{
+  display: block;
+  width: 380px;
+  height: 100px;/*px*/
+  margin: 0 auto;
+  background: url('../../assets/task/qiandaoqureng_btn@2x.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: 40px;
+  font-size: 34px; /*px*/
+  text-align: center;
+  line-height: 100px;/*px*/
+  color: #000;
+}

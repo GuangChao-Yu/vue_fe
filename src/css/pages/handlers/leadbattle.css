@@ -1,0 +1,27 @@
+.leadbattle-body {
+  width: 750px;
+  height: auto;
+
+  padding-top: 40px;/*px*/
+}
+
+.leadbattle-body-border {
+  margin-bottom: 40px;/*px*/
+  display: flex;
+}
+
+.leadbattle-list {
+  width: 710px;/*px*/
+  background-color: #253341;
+  margin: 0 auto;
+  border: 1px solid #32314c;/*no*/
+ 
+
+}
+
+.leadbattle-body-no {
+  width: 750px;
+  font-size: 40px;/*px*/
+  color: #4D6470;
+  text-align: center;
+}

@@ -1,0 +1,189 @@
+.contest-card-wrap {
+  border: 1px solid #323e4c;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  /*px*/
+}
+
+.contest-card-header {
+  background-color: rgba(26, 43, 51, 0.6);
+  color: #a9c8d7;
+  height: 60px;
+  /*px*/
+  padding-top: 0px;
+  /*px*/
+  padding-right: 40px;
+  padding-bottom: 0px;
+  /*px*/
+  padding-left: 40px;
+  border-bottom: 1px solid #1b233c;
+  position: relative;
+  
+}
+
+.contest-card-header .title-info,
+.contest-card-header .time-info {
+  height: inherit;
+}
+
+.contest-card-header .title-info>img {
+  width: 69px;
+  height: 75px;
+  /*px*/
+  position: absolute;
+  top: -1px;
+  /*px*/
+}
+
+.contest-card-header .title-info>strong {
+  margin-left: 86px;
+  font-size: 32px;
+  /*px*/
+  position: relative;
+  /*bottom:.56rem;*/
+  line-height: 60px;
+  /*px*/
+}
+
+.contest-card-header .title-info>strong img,
+.contest-card-header .time-info img {
+  width: 26px;
+  height: 26px;
+  /*px*/
+  margin-top: 0px;
+  /*px*/
+  margin-right: 8px;
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 20px;
+}
+
+.contest-card-header .time-info {
+  font-size: 26px;
+  line-height: 60px;
+  /*px*/
+}
+
+.contest-card-header .time-info img {
+  position: relative;
+  top: 3px;
+  /*px*/
+}
+
+.com-com-text {
+  display: inline-block;
+  width: 206px;
+}
+
+.contest-card-body {
+  padding-top: 20px;
+  /*px*/
+  padding-right: 41px;
+  padding-bottom: 0px;
+  /*px*/
+  padding-left: 41px;
+  background-color: rgba(37, 51, 65, 0.6);
+}
+
+.contest-card-body .body-info-item {
+  margin-bottom: 22px;
+  /*px*/
+}
+
+.contest-card-body .item-title-info {
+  font-size: 32px;
+  /*px*/
+  color: #607d8b;
+}
+
+.contest-card-body .item-count-info {
+  font-size: 26px;
+  /*px*/
+  color: #a9c8d7;
+}
+
+.item-count-info .current-number {
+  /*margin-right: -8px;*/
+}
+
+.item-count-info .current-number:after {
+  content: '/';
+  color: #a9c8d7;
+}
+
+.body-info-item .game-intro {
+  height: 34px;
+  /*px*/
+  font-size: 28px;
+  /*px*/
+  color: #a7b7c0;
+  line-height: 34px;
+  /*px*/
+  border: 1px solid #a7b7c0;
+  /*no*/
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  /*px*/
+  padding-bottom: 1px;
+  /*px*/
+  border-radius: 5px;
+  margin-right: 6px;
+}
+
+.body-info-item .ticket-info,
+.body-info-item .bonus-info {
+  color: #a7b7c0;
+  font-size: 28px;
+  /*px*/
+}
+
+.body-info-item .ticket-info strong img,
+.body-info-item .bonus-info strong img {
+  position: relative;
+  top: 6px;
+  /*px*/
+  margin-top: 0px;
+  /*px*/
+  margin-right: 4px;
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 10px;
+}
+
+.body-info-item .ticket-info span {
+  position: relative;
+  bottom: 2px;
+  /*px*/
+}
+
+.free-contest-text {
+  color: #14ff83;
+  margin-top: 0px;
+  /*px*/
+  margin-right: 4px;
+  margin-bottom: 0px;
+  /*px*/
+  margin-left: 10px;
+  font-size: .426rem;
+}
+
+.body-info-item .bonus-info .bonus-title {
+  color: #607d8b;
+  font-size: 32px;
+  /*px*/
+}
+
+
+/*修改组件金币、点券等图标统一*/
+
+.list-jd-img {
+  width: 30px;
+  height: 30px;
+  /*px*/
+}
+
+.contest-card-header-icon{
+  position: absolute;
+  top: 8px;
+}

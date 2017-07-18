@@ -1,0 +1,157 @@
+.aleadDetils {
+  width: 750px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.leadDetails-title {
+  width: 710px;
+  height: 140px; /*px*/
+  display: flex;
+  padding-left: 20px;
+  padding-right: 32px;
+
+  align-items: center;
+}
+
+.leadDetails-title-left {
+  display: inline-block;
+  flex: 1;
+}
+
+.leadDetails-title-left-a {
+  display: block;
+  font-size: 24px; /*px*/
+  color: #607d8b;
+  padding-bottom: 6px; /*px*/
+}
+
+.leadDetails-title-left-b {
+  display: block;
+  font-size: 32px; /*px*/
+  color: #607d8b;
+  padding-bottom: 6px; /*px*/
+}
+
+.leadDetails-title-right {
+  flex: 1;
+
+  display: inline-block;
+}
+
+.leadDetails-title-right span {
+  display: block;
+}
+
+.leadDetails-title-right-average {
+  display: inline-block;
+  float: right;
+}
+
+.leadDetails-title-right-residue {
+  padding-right: 60px;
+  display: inline-block;
+  float: right;
+}
+
+.leadDetails-title-right-average-a {
+  padding-bottom: 6px; /*px*/
+  font-size: 24px; /*px*/
+  color: #607d8b;
+}
+
+.leadDetails-title-right-average-b {
+  font-size: 32px; /*px*/
+  color: #ffea00;
+}
+
+.aleadDetils-map {
+  width: 710px !important;
+}
+
+.aleadDetils-footer {
+  display: flex;
+  width: 710px;
+  height: 220px; /*px*/
+  margin-top: 40px; /*px*/
+  background: url("../../../assets/lineUp/teambd@2x.png") rgba(25, 33, 41, .6) 100% 100% no-repeat;
+  background-size: 100% 100% !important;
+}
+
+.aleadDetils-footer-img {
+  flex: 0 0 230px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.aleadDetils-footer-img img {
+  width: 120px;
+  height: 120px; /*px*/
+}
+
+.aleadDetils-footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.aleadDetils-footer-right-left {
+  text-align: center;
+  display: inline-block;
+}
+
+.aleadDetils-footer-right-left span {
+  width: 140px;
+  height: 40px; /*px*/
+  font-size: 24px; /*px*/
+
+  color: #a8c9d8;
+  display: block;
+}
+
+.aleadDetils-footer-right-center {
+  text-align: center;
+
+  display: inline-block;
+}
+
+.aleadDetils-footer-right-center span {
+  width: 140px;
+  height: 40px; /*px*/
+  color: #a8c9d8;
+  font-size: 24px; /*px*/
+
+  display: block;
+}
+
+.aleadDetils-footer-right-right {
+  text-align: center;
+
+  display: inline-block;
+}
+
+.aleadDetils-footer-right-right span {
+  width: 140px;
+  height: 40px; /*px*/
+  font-size: 24px; /*px*/
+  color: #a8c9d8;
+  display: block;
+}
+
+.aleadDetils-footer-right-right span:last-child {
+  color: #ffea00;
+}
+
+.aleadDetils-btn {
+  height: 120px; /*px*/
+  font-size: 34px; /*px*/
+  margin-top: 40px; /*px*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  background: url("../../../assets/importLineUp/leadteam_details@2x.png") 100% 100% no-repeat ;
+  background-size: 100% 100% !important;
+}

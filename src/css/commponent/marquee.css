@@ -1,0 +1,56 @@
+.common-info {
+  width: 750px;
+  height: 50px;  /*px*/
+  line-height: 50px;  /*px*/
+  top: 278px;  /*px*/
+  font-size: 24px;
+  /*px*/
+  color: #ffffff;
+  position: fixed;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../../assets/index/home_gaoshi@2x.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: 100;
+}
+
+.scroll-list{
+  display: inline-block;
+  margin-right: 100px;/*px*/
+}
+
+.scroll-list:last-child{
+  margin-right: 0;
+}
+
+.scroll-list strong{
+  line-height: 50px;
+}
+.common-info span>img {
+  position: relative;
+  top: 8px;  /*px*/
+  width: 32px;
+  height: 32px;
+  margin: 0 20px;  /*px*/
+}
+
+.common-info strong>img {
+  position: relative;
+  top: 8px;  /*px*/
+  width: 32px;
+  height: 32px;
+  margin: 0 20px;  /*px*/
+}
+
+.left-slide-animate {
+  animation: left-slide 20s linear infinite;
+  position: absolute;
+  height: 50px; /*px*/
+  top: 0;
+  z-index: 10
+}
+
+@keyframes left-slide {
+  0% {right: -1632px}
+  100% {right:100%}
+}

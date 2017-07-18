@@ -1,0 +1,231 @@
+body{
+  height: auto;
+  min-height: 100%;
+}
+.exchange-list {
+  width: 750px;
+  height: 160px;
+  position: relative;
+}
+
+.no-data-txt {
+  width: 750px;
+  height: 160px;
+  text-align: center;
+  line-height: 160px;
+  color: #FFF;
+  font-size: 40px;
+}
+
+.exchange-time {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.exchange-name {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 212px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+
+
+.exchange-num {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.exchange-state {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.state-ing {
+  color: #49d4e1;
+}
+
+.state-success {
+  color: #ffea00;
+}
+
+.state-fail {
+  color: #607d8b;
+}
+
+.exchange-type {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 212px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 1px solid #a7b7c0;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.exchange-type-name {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 320px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 1px solid #a7b7c0;
+  font-size: 32px;
+  /*px*/
+  color: #a7b7c0;
+}
+
+.exchange-gold-num {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  color: #ffea00;
+  font-size: 36px;
+  /*px*/
+}
+
+.exchange-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 100px;
+  right: 120px;
+  background: url('../../../assets/home/jinbi@2x.png') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.exchange-dialog {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 750px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.exchange-dialog-box {
+  width: 560px;
+  height: 680px;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -340px;
+  margin-left: -280px;
+  z-index: 20;
+  background: #333333;
+}
+
+.exchange-dialog-box-title {
+  width: 560px;
+  height: 99px;
+  text-align: center;
+  line-height: 100px;
+  color: #49d4e1;
+  font-size: 36px;
+  position: relative;
+  border-bottom: 1px solid #a7b7c0;
+  /*px*/
+}
+
+.exchange-dialog-list {
+  width: 560px;
+  height: 60px;
+  display: flex;
+  -webkit-box-pack: justify;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.exchange-dialog-bill {
+  font-size: 30px;
+  color: #a7b7c0;
+  line-height: 60px;
+}
+
+.exchange-dialog-bill-num {
+  text-align: right;
+  line-height: 60px;
+  font-size: 30px;
+  color: #a7b7c0;
+}
+
+.exchange-dialog-list-big {
+  height: 100px;
+  line-height: 100px;
+}
+
+.exchange-dialog-icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url('../../../assets/home/jinbi@2x.png') no-repeat;
+  background-size: 100% 100%;
+  margin-right: 10px;
+}
+
+.exchange-dialog-close-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url('../../../assets/exchange/close@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 90;
+}
+
+.loading{
+  width: 750px;
+  height: 100px;/*px*/
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;/*px*/
+}

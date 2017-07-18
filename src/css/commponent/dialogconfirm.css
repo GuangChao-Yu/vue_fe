@@ -1,0 +1,119 @@
+.confirm-enter .confirm-container,
+.confirm-leave-active .confirm-container {
+  transform: scale(1.2);
+}
+
+.confirm-dialog {
+  width: 710px;
+  height: 415px;
+  /*px*/
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  background: #344650;
+  border-radius: 20px;
+  z-index: 888;
+  transform: translate(-50%, -50%);
+}
+
+.confirm-dialog-title{
+  text-align: center;
+  font-size: 36px;/*px*/
+  color: #a9c8d7;
+  margin-top: 40px;/*px*/
+}
+
+.confirm-close{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  background: url('../../assets/modal/close@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.confirm-con{
+  margin-top: 40px;
+}
+
+.confirm-logo{
+  float: left;
+  width: 144px;
+  height: 130px;/*px;*/
+  margin-left: 60px;
+  overflow: hidden;
+}
+
+.confirm-logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.jinbi-list{
+  float: left;
+  width: 335px;
+  height: 45px;/*px*/
+  margin-left: 60px;
+  background: #212c32;
+  border-radius: 10px;
+  position: relative;
+}
+
+.dianquan-list{
+  float: left;
+  width: 335px;
+  height: 45px;/*px*/
+  margin-left: 60px;
+  margin-top: 40px;
+  background: #212c32;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cost-name{
+  display:block;
+  background: #304149;
+  width: 111px;
+  font-size: 26px;
+  text-align: center;
+  line-height: 45px;/*px*/
+  color: #607d8b;
+}
+
+.config-icon{
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+
+.config-num{
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  left: 65%;
+  top:5px;
+}
+
+.btn-warp{
+  width: 100%;
+  height: 94px;/*px*/
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jinbi-btn,.dianquan-btn{
+  position: relative;
+  width: 297px;
+  height: 94px;/*px*/
+  background: url('../../assets/modal/button@2x.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 94px;/*px*/
+  font-size: 32px;/*px*/
+  color: #fff;
+}

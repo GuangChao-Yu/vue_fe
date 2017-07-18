@@ -1,0 +1,121 @@
+
+h5 {
+  font-size: 38px;
+  /*px*/
+  color: white;
+  margin-top: 0px;
+  /*px*/
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 24px;
+  /*px*/
+  font-weight: 300;
+}
+
+h6 {
+  color: #607D8B;
+  font-size: 34px;
+  /*px*/
+  margin-bottom: 24px;
+  /*px*/
+}
+
+p {
+  font-size: 26px;
+  /*px*/
+  color: #B0BEC5;
+  font-weight: 400;
+  margin-bottom: 12px;
+  /*px*/
+}
+
+dt {
+  font-size: 32px;
+  /*px*/
+  color: #607D8B;
+  margin-bottom: 24px;
+  /*px*/
+}
+
+dd {
+  font-size: 32px;
+  /*px*/
+}
+
+th {
+  color: #607D8B;
+}
+
+tr {
+  line-height: 68px;
+  /*px*/
+}
+
+.user-profile-content-block {
+  padding-top: 16px;
+  /*px*/
+  padding-bottom: 16px;
+  /*px*/
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "HanHei SC", "PingFang SC", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.text-right-1 {
+  padding-left: 24px;
+}
+
+.text-right-2 {
+  padding-left: 24px;
+}
+
+.alpha-table {
+  font-size: 30px;
+  /*px*/
+}
+
+.alpha-border-table {
+  border: 2px solid rgba(84, 110, 122, .2);
+  /*no*/
+}
+
+table {
+  display: table;
+  width: 100%;
+}
+
+tbody {
+  border-top: 2px solid rgba(84, 110, 122, .2);
+  /*no*/
+  line-height: 68px;
+}
+
+.alpha-faq dd table,
+.alpha-generic-content table {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.alpha-table tbody tr td {
+  color: #B0BEC5;
+  background: rgba(42, 55, 62, .5);
+}
+
+li {
+  list-style-type: disc;
+  padding-left: 82px;
+  color: #B0BEC5;
+  text-align: -webkit-match-parent;
+  font-size: 28px;
+  /*px*/
+  margin-bottom: 12px;
+  /*px*/
+}
+
+.alpha-bullent-list {
+  color: #B0BEC5;
+}
+
+.alpha-faq dd {
+  margin-bottom: 34px;
+  /*px*/
+}

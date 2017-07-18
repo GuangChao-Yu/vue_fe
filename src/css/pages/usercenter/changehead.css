@@ -1,0 +1,76 @@
+.changeheade-head {
+  width: 750px;
+  height: 270px;
+  /*px*/
+  background-color: rgba(40, 55, 63, .3);
+  position: relative;
+}
+
+.changeheade-img{
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -72px;
+  top:40px; /*px*/
+  border: 2px solid #13aa9c; /*no*/
+  overflow: hidden;
+}
+
+.changeheade-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.changeheade-name{
+  width: 750px;
+  font-size: 48px; /*px*/
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  top: 188px; /*px*/
+}
+
+.changehead-con{
+  width: 640px;
+  margin: 30px 55px;
+  overflow: hidden;
+}
+
+.changehead-ul{
+  width: 110%;
+}
+
+.changehead-li{
+  float: left;
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  border:2px solid #13aa9c; /*no*/
+  position: relative;
+  margin-top: 40px; /*px*/
+  margin-right: 70px;
+  overflow: hidden;
+}
+
+.changehead-li img{
+  width: 100%;
+  height: 100%;
+}
+
+.changehead-select-icon{
+  display: none;
+  width: 88px;
+  height: 88px;
+  background: url('../../../assets/changehead/portait_chosen@2x.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.changehead-li-active .changehead-select-icon{
+  display: block;
+}

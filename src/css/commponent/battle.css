@@ -1,0 +1,43 @@
+.battle-body {
+  height: 280px;/*px*/
+  box-sizing: border-box;
+  padding-top: 30px;/*px*/
+  padding-right: 25px;
+  padding-bottom: 40px;/*px*/
+  padding-left: 25px;
+}
+
+.battle-body-list {
+  /*width: 660px;*/
+  
+  
+}
+
+.battle-body-list-header-left {
+  display: inline-block;
+}
+
+.battle-body-list-header-left-time {
+  font-size: 26px;/*px*/
+  color: #a9c8d7;
+}
+
+.battle-body-list-header-left span {
+  display: block;
+}
+
+.battle-body-list-header-right {
+  float: right;
+  width: 232px;
+  height: 64px;/*px*/
+  background: url('../../assets/importLineUp/leadteam_buttom.png')  no-repeat ;
+  background-size: 100% 100% !important;
+  text-align: center;
+}
+
+.battle-body-list-header-right-img {
+  font-size: 24px;/*px*/
+  color: #ffffff;
+  line-height: 64px;
+  border-radius: 2px;/*no*/
+}

@@ -1,0 +1,94 @@
+.team-list {
+  background: url("../../assets/lineUp/teambd@2x.png") rgba(25, 33, 41, .6) 100% 100% no-repeat;
+  background-size: 100% 100% !important;
+  height: 224px;
+  /*px*/
+  width: 750px;
+  padding-top: 10px;
+  /*px*/
+  padding-right: 10px;
+  padding-bottom: 10px;
+  /*px*/
+  padding-left: 50px;
+  background-size: cover;
+  margin-bottom: 90px;/*px*/
+}
+
+.team-handle-wrap {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.team-list-wrap {
+  width: 75000px;
+}
+
+.team-item {
+  background: url("../../assets/lineUp/team-list-bg.png") 100% 100% no-repeat;
+  width: 168px;
+  height: 204px;
+  /*px*/
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.team-item.team-active {
+  background: url("../../assets/lineUp/team-list-bg-active.png") 100% 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.team-item .team-header {
+  color: #ffffff;
+  font-size: 26px;
+  /*px*/
+  height: 47px;
+  /*px*/
+  line-height: 47px;
+  /*px*/
+  text-indent: 75px;
+}
+
+.team-item .team-body {
+  height: 75px;
+  /*px*/
+  padding-right: 16px;
+}
+
+.team-item .team-body img {
+  width: 87px;
+  height: 80px;
+  /*px*/
+  margin-left: 65px;
+}
+
+.team-item .team-footer {
+  height: 72px;
+  padding-top: 6px;
+  /*px*/
+  padding-right: 16px;
+  padding-bottom: 0px;
+  /*px*/
+  padding-left: 16px;
+}
+
+.team-item .team-footer-item {
+  color: #607d8b;
+  font-size: 20px;
+  /*px*/
+}
+
+.team-item .team-footer-item span {
+  font-size: 20px;
+  /*px*/
+  text-align: right;
+}
+.team-salary span:before {
+  content: '¥';
+  color: #ffea00;
+}
+.team-salary span {
+  color: #ffea00;
+}
+.team-stp span {
+  color: #a1bfce;
+}

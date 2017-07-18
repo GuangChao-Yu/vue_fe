@@ -1,0 +1,66 @@
+ .header-nav {
+    background-color: #344650;
+    height:90px;/*px*/
+    display: flex;
+    font-size:32px;/*px*/
+    line-height: 90px;/*px*/
+    text-align: center;
+    color: #607d8b;
+  }
+  .header-nav .go-back img {
+    position: relative;
+    top:8px;/*px*/
+  }
+
+  .logo-banner {
+    height:218px;/*px*/
+  }
+  .logo-banner img {
+    height:inherit;
+    width: 100%;
+  }
+
+ 
+  .login-body{
+    width: 750px;
+  }
+  .div-input{
+    width: 750px;
+    margin: 40px 0;
+
+  }
+  .div-input input{
+    width: 100%;
+    height:inherit;
+    text-align: center;
+    line-height:80px;/*px*/
+    font-size: 30px;/*px*/
+    color: #607d8b;
+    border:none;
+    outline:none;
+    background: url("../../../assets/login/login_square@2x.png") center no-repeat;
+  }
+  .flex-item-a{
+    width: 750px;
+  }
+  .flex-item-a a{
+    display: block;
+    width: 531px;
+    margin:0 auto;
+    font-size: 24px;
+    color: #11a598;
+    cursor: pointer;
+  }
+  .login-body .div-btn{
+    margin: 40px 0;
+  }
+  .login-body .div-btn button {
+    border: none;
+    background: url("../../../assets/login/login_btn@2x.png") center no-repeat;
+    width:100%;
+    height:inherit;
+    line-height:80px;/*px*/    
+    color: #ffffff;
+    font-size: 36px;/*px*/
+    outline:none;
+  }

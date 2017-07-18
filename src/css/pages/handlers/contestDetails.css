@@ -1,0 +1,205 @@
+ .contest-details-body {
+    padding-top:20px;/*px*/
+    padding-right:20px;
+    padding-bottom:20px;/*px*/
+    padding-left:20px;
+  }
+  .contest-details-body .contest-card-header div {
+    color: #a7b7c0;
+  }
+  .contest-details-body .contest-card-header div.right {
+    padding-right:9px;
+  }
+  .contest-details-body .contest-card-header div.right img {
+    top:9px;/*px*/
+  }
+  .contest-details-body .contest-card-header div.right strong span {
+    color: #ffea00;
+  }
+
+  /* 图片 */
+  /*.contest-card-header .contest-details {*/
+    /*bottom:0!important;*/
+  /*}*/
+
+  /*.contest-details img {*/
+    /*width:18px;*/
+  /*}*/
+
+
+  .contest-details-content {
+    color: #8db2c3;
+    padding-top:50px;/*px*/
+    padding-right:0px;
+    padding-bottom:50px;/*px*/
+    padding-left:0px;
+    text-align: center;
+  }
+  .content-time .time-title ,.content-info .item-title{
+    font-size: 28px;/*px*/
+  }
+  .content-time .time-info {
+    font-size: 60px;/*px*/
+    color: #ffffff;
+  }
+
+  .content-info .item-info {
+    font-size: 32px;/*px*/
+  }
+
+  .current-number:after {
+    content:"/";
+    color: #a9c8d7;
+  }
+  .content-info .item-info {
+    color: #a9c8d7;
+  }
+  .content-info .item-info.item-ticket{
+    color: #14ff83;
+  }
+  .content-info .item-info span {
+    /*margin:0 -.067rem;*/
+  }
+  .content-info .item-info.item-ticket-fee {
+    color: #ffea00;
+  }
+  .content-info .item-info.item-ticket-fee strong img {
+    position: relative;
+    top:5px;/*px*/
+  }
+
+  /* tab */
+  .tab {
+    font-size: 32px;/*px*/
+    color: #5d7987;
+    text-align: center;
+  }
+  .tab-active {
+    background: rgba(37,47,55,.6)!important;
+    color: #34717a;
+  }
+  .tab .tab-item {
+    border-top:1px solid #323e4c;/*no*/
+    border-left:1px solid #323e4c;/*no*/
+    border-right:1px solid #323e4c;/*no*/
+    height:88px;/*px*/
+    line-height:88px;/*px*/
+    width:177px;
+    background-color: rgba(34,39,46,.6);
+    margin-right:2px;
+  }
+
+  .tab-content {
+    background: rgba(37,47,55,.6)!important;
+    color: #607d8b;
+    border-bootom:1px solid #323e4c;/*no*/
+    border-left:1px solid #323e4c;/*no*/
+    border-right:1px solid #323e4c;/*no*/
+    height:720px;/*px*/
+    font-size: 32px;/*px*/
+    padding-top:15px;/*px*/
+    padding-right:40px;
+    padding-bottom:15px;/*px*/
+    padding-left:40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .tab-content-item {
+    height:90px;/*px*/
+    line-height: 90px;/*px*/
+    border-bottom: 1px solid #39424a;/*no*/
+    overflow-y:hidden;
+  }
+  .tab-content-item-noBorder {
+    /*height:1.2rem;
+    line-height: 1.2rem;*/
+
+  }
+  .tab-content-item-noBorder .vs-list {
+    margin-bottom:40px;/*px*/
+  }
+  .tab-content-item-noBorder .vs-list .flex-item.text-center {
+    padding-top:28px;/*px*/
+  }
+  div.vs {
+    color: #a9c8d7;
+  }
+  .tab-content-item-noBorder .vs-img-wrap {
+    width: 87px;
+    height:87px;/*px*/
+    border:1px solid #b6b9ba;/*no*/
+    border-radius: 50%;
+  }
+  .flex-item-text-center{
+    text-align: center;
+  }
+  .lazy-loading{
+    height: 80px;
+  }
+  .tab-content-item-noBorder .vs-img-wrap img {
+    width:98%;
+    height:98%;
+    margin-left: 1%;
+    margin-top:1%;
+  }
+  .tab-content-item-noBorder .vs-team-name {
+    width: 87px;
+    margin-top:10px;/*px*/
+    text-align: center;
+  }
+
+  .tab-content .tab-content-item span img {
+    position: relative;
+    top:7px;/*px*/
+  }
+  .tab-content .tab-content-item span strong {
+    color: #ffea00;
+  }
+
+  .tab-content .tab-content-item .right {
+    color: #a9c8d7;
+  }
+  .tab-content .tab-content-item .right .item-info.item-ticket{
+    color: #14ff83;
+  }
+  .tab-content .tab-content-item .right .item-info.item-ticket-fee {
+    color: #a9c8d7;
+  }
+  .tab-content .tab-content-item .right .item-info.item-ticket-fee strong img {
+    position: relative;
+    top:6px;/*px*/
+  }
+  .tab-content .tab-content-item .right span.current-number {
+    position: relative;
+    /*right:-.1333rem;*/
+  }
+
+  .tab-content .left .user-header-url {
+    width:68px;
+    height:68px;/*px*/
+    border:1px solid #13191d;/*no*/
+    border-radius: 50%;
+    margin-top:8px;/*px*/
+  }
+  .tab-content .left .user-header-url img {
+    width:98%;
+    height:98%;
+    border-radius: 50%;
+    margin:1% 0 0 1%;
+  }
+  .tab-content .left .user-name {
+    margin-left: 15px;
+  }
+  .tab-content .right .rank-img-url {
+    position: relative;
+    top:8px;/*px*/
+  }
+  .tab-content .right .rank-img-url img {
+    width:80px;
+  }
+  /*统一金币、点券样式*/
+  .detail-dj-img{
+    width:30px;
+    height:30px;/*px*/
+  }

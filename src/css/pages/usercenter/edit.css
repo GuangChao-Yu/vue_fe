@@ -1,0 +1,124 @@
+.weChat-save-btn {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  /*px*/
+  font-size: 32px;
+  /*px*/
+  color: #49d4e1;
+}
+
+.edit-item {
+  width: 630px;
+  height: 100px;
+  /*px*/
+  border-bottom: 1px solid #003333;
+  /*no*/
+  border-top: 1px solid #333333;
+  /*no*/
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgba(40, 55, 63, .3);
+  position: relative;
+}
+
+.user-head {
+  display: block;
+  height: 180px;
+  /*px*/
+  border: none;
+  margin-bottom: 20px;
+  /*px*/
+}
+
+.edit-txt {
+  display: inline-block;
+  font-size: 30px;
+  /*px*/
+  color: #607d8b;
+  line-height: 100px;
+}
+
+.user-head-txt {
+  line-height: 180px;
+  /*px*/
+}
+
+.edit-img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 50%;
+  margin-top: -48px;
+  right: 72px;
+  border-radius: 50%;
+  border: 2px solid #13aa9c;
+  overflow: hidden;
+  /*no*/
+}
+
+.edit-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.edit-icon {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 40px;
+  color: #607d8b;
+  right: 24px;
+  top: 50%;
+  margin-top: -28px;
+}
+
+.edit-item-defult {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: center;
+  height: 100px;
+  /*px*/
+  border-bottom: 1px solid #003333;
+  /*no*/
+  border-top: 1px solid #333333;
+  /*no*/
+  padding: 0 60px;
+  background-color: rgba(40, 55, 63, .3)!important;
+  position: relative;
+}
+
+.can-be-update{
+  margin-top: 20px; /*px*/
+}
+
+.edit-input-style{
+  background: rgba(0,0,0,0);
+  width: 140px;
+  height: 100px; /*px*/
+  font-size: 30px;
+  color: #a7b7c0;
+  text-align: center;
+}
+
+.edit-date{
+  background: rgba(0,0,0,0);
+}
+
+.edit-date-pick{
+  height: 100px; /*px*/
+    font-size: 30px;
+  /*px*/
+  color: #607d8b;
+  line-height: 100px;
+  text-align: right;
+  display: inline-block;
+  width: 400px;
+  background: rgba(0,0,0,0);
+}
+
+/* data-piack*/

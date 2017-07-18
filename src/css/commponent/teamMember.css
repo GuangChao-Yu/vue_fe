@@ -1,0 +1,146 @@
+.battle-body-list-footer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  /*px*/
+}
+
+.battle-body-list-footer-img1 {
+  flex: 1;
+  display: inline-block;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  flex: 1;
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 10;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.battle-body-list-footer-img2 {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 1;
+  margin-left: -30px;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 9;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.battle-body-list-footer-img3 {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 1;
+  margin-left: -30px;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 8;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.battle-body-list-footer-img4 {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 1;
+  margin-left: -30px;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 7;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.battle-body-list-footer-img5 {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 1;
+  margin-left: -30px;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 6;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.battle-body-list-footer-img6 {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 1;
+  margin-left: -30px;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  border: 1px solid #03868b;
+  /*no*/
+  background: #1c2d35;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.battle-body-list-footer-img7 {
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: -30px;
+  flex: 1;
+  width: 120px;
+  height: 120px;
+  /*px*/
+  background: #1c2d35;
+  border: 1px solid #03868b;
+  /*no*/
+  z-index: 4;
+  overflow: hidden;
+}
+
+.battle-body-list-footer-img7 img {
+  width: 100%;
+  height: 100%;
+}

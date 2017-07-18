@@ -1,0 +1,27 @@
+.other-game-title-warp{
+  width: 750px;
+  height: 274px;/*px*/
+}
+
+.other-game-title{
+  font-size: 32px;/*px*/
+  text-align: center;
+  color: #a9c8d7;
+  padding-top: 32px;/*px*/
+}
+
+.other-game-scree{
+  margin-top: 20px;/*px*/
+  margin-bottom: 36px;/*px*/
+}
+
+.other-game-scroll-warp{
+  width: 720px;
+  margin: 0 auto;
+}
+
+.other-game-player{
+  width:670px;
+  height: 120px;/*px*/
+  margin: 0 auto;
+}
